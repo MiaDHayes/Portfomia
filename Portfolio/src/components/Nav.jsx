@@ -5,6 +5,7 @@ export default function Nav () {
         <div className= "nav-links">
             <Link to= "/"> Home </Link>
             <Link to= "/about-me"> About Me </Link>
+            <Link to= "/connect"> Connect </Link>
         </div>
     )
 }
