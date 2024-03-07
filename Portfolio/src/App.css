@@ -1,26 +1,3 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.App {
-  text-align: center;
-  color:white;
-}
-
-#firstName, #lastName, #phoneNumber, #email, #message{
-  display:block;
-  margin: 0 auto;
-} */
-
-body {
-  background: linear-gradient(to bottom, #6F42D0, #789CE3, #D07AEE);
-  font-family: Arial, sans-serif;
-}
-
-
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -28,14 +5,60 @@ body {
   text-align: center;
 }
 
-
-.App {
+body {
+  background: linear-gradient(to bottom, #6F42D0, #789CE3, #D07AEE);
+  font-family: 'Julius Sans One';
   text-align: center;
-  color: #333;
-  background-color: #90bcea; 
+  color: #ffffff;
   border-radius: 8px;
   padding: 2rem; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* .App {
+  text-align: center;
+  color:white;
+} */
+
+/* #firstName, #lastName, #phoneNumber, #email, #message{
+  display:block;
+  margin: 0 auto;
+} */
+
+div.nav-links {
+  background-color: transparent;
+  color: #fff;
+  /* padding: 10px; */
+  text-align: justify;
+  position: fixed; 
+  width: 100%; 
+  top: 0;
+  overflow: hidden;
+}
+
+div.nav-links a {
+  color: #fff;
+  font-family: 'Julius Sans One';
+  font-weight: bolder;
+  text-decoration: none;
+  margin: 0 10px;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+div.nav-links a:hover {
+  text-decoration: underline;
+  color: #f059ed;
+}
+
+h1 {
+  margin: 0;
+  /* position: absolute; */
+  top: 50%;
+  -ms-transform: translateY(-100%);
+  transform: translateY(-350%);
 }
 
 /* form input fields */
@@ -77,9 +100,4 @@ label {
   margin-bottom: 1rem;
 }
 
-/* media query for responsiveness */
-@media (max-width: 768px) {
-  .App {
-    padding: 1rem; 
-  }
-}
+
