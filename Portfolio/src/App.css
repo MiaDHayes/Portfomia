@@ -11,10 +11,23 @@ body {
   text-align: center;
   color: #ffffff;
   border-radius: 8px;
-  padding: 2rem; 
+  padding: 2rem;
+  margin: 0;
+  padding: 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
+/* div.home {
+  text-align: end;
+} */
+
+div.name {
+  color: black;
+}
+
+div.role {
+  color: green;
+}
 /* .App {
   text-align: center;
   color:white;
@@ -28,12 +41,12 @@ body {
 div.nav-links {
   background-color: transparent;
   color: #fff;
-  /* padding: 10px; */
-  text-align: justify;
-  position: fixed; 
-  width: 100%; 
-  top: 0;
-  overflow: hidden;
+  text-align: center; /* Center the text horizontally */
+  position: absolute; 
+  width: 100%; /* Take up the full width */
+  top: 0; /* Align to the top of the viewport */
+  transform: translateY(0);
+  left: 0;
 }
 
 div.nav-links a {
@@ -42,8 +55,8 @@ div.nav-links a {
   font-weight: bolder;
   text-decoration: none;
   margin: 0 10px;
-  float: left;
-  display: block;
+  /* float: left; */
+  display: inline-block;
   text-align: center;
   padding: 14px 16px;
 }
@@ -53,13 +66,15 @@ div.nav-links a:hover {
   color: #f059ed;
 }
 
-h1 {
-  margin: 0;
+
+
+/* h1 { */
+  /* margin: 0; */
   /* position: absolute; */
-  top: 50%;
+  /* top: 50%;
   -ms-transform: translateY(-100%);
   transform: translateY(-350%);
-}
+} */
 
 /* form input fields */
 input[type="text"],
@@ -100,4 +115,10 @@ label {
   margin-bottom: 1rem;
 }
 
-
+div.footer {
+  transform: translateY(0);
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}

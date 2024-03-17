@@ -2,7 +2,10 @@
 
 function Footer() {
     return (
-        <h5>This is the Footer</h5>
+        <div className="footer">
+            <h5>This is the Footer</h5>
+        </div>
+
     )
 }
 
