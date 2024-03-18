@@ -22,11 +22,11 @@ body {
 } */
 
 div.name {
-  color: black;
+  color: white;
 }
 
 div.role {
-  color: green;
+  color: white;
 }
 /* .App {
   text-align: center;
@@ -121,4 +121,11 @@ div.footer {
   right: 0;
   left: 0;
   bottom: 0;
+}
+
+.about-me-img img {
+  max-width: 40%;
+  /* max-height: 100%; */
+  border-radius:100%;
+  border: 2px solid #fff;
 }
